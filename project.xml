@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="SensorShader" package="com.sample.sensorshader" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="SensorShader"/>
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="SensorVL53L1X" />
+
+	<assets path="Assets/images" rename="images"/>
+	<assets path="Assets/fonts"  rename="fonts" include="*.ttf" />
+	<assets path="Assets/sounds" rename="sounds">
+		<sound path="4.wav" id="plonk" />
+	</assets>
+	
+</project>
